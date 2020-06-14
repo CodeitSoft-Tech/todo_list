@@ -36,8 +36,7 @@ include("includes/header.php");
               <div class="card-body">
                   <table id="example1" class="table table-bordered table-striped">
                   <thead>
-                  <tr>
-                    <th>No.</th>                
+                  <tr>               
                     <th>Task</th>
                     <th>Task Description</th>
                     <th>Date</th> 
@@ -61,7 +60,6 @@ include("includes/header.php");
                   ?>
                     <!-- Data Call from Database -->
                     <tr>
-                      <td><?php echo $row['new_task_id']; ?></td>
                       <td><?php echo $row['task_name']; ?></td>
                       <td><?php echo $row['task_desc']; ?></td>
                       <td><?php echo $row['task_date']; ?></td>
@@ -134,7 +132,7 @@ include("includes/header.php");
             <div class='form-group'>
               <label class='control-label col-lg-3'>Status</label>
               <div class='col-lg-9'>
-                <select class='form-control' name='task_status' style='width: 100%;' required>
+                <select class='form-control' name='task_status' style='width: 100%;'>
                  <option value='Not Done'>Not Done</option>
                  <option value='Done'>Done</option>
               </select>
@@ -184,8 +182,7 @@ include("includes/header.php");
                   <?php } } ?>
                   </tbody>
                   <tfoot>
-                  <tr>
-                     <th>No.</th>                
+                  <tr>              
                     <th>Task</th>
                     <th>Task Description</th>
                     <th>Date</th> 
