@@ -2,6 +2,7 @@
 
 TODO LIST APPLICATION
 This application is designed to hold user defined task that is, task that is going to be performed by the user with respect to date and time. The system provides the user with the opportunity to decide whether a particular task has been done or not.
+
 HOW THE APPLICATION WORKS
 The system is comes with two sections; a section that provides the user the ability to add new task and specify its status based on the task activeness (that is; task has been done or date and time assigned is not due yet) and viewed (that is; task has not been done) and it is labelled All Task. The other section holds task that has been completed by the user (that is; task with a Done status) and it is labelled Completed Task.
 
