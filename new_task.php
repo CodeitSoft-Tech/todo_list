@@ -120,14 +120,6 @@ include("includes/header.php");
               <input type="date" class="form-control" name="task_date" value="<?php echo $row['task_date'];?>" required>  
               </div>
             </div>
-
-             <div class="form-group">
-              <label class="control-label col-lg-3">Time</label>
-              <div class="col-lg-9"><input type="hidden" class="form-control" name="new_task_id" value="<?php echo $row['new_task_id'];?>" required>  
-              <input type="time" class="form-control" name="task_time" value="<?php echo $row['task_time'];?>" required>  
-              </div>
-            </div>
-
                   
             <div class='form-group'>
               <label class='control-label col-lg-3'>Status</label>
@@ -231,13 +223,6 @@ include("includes/header.php");
         <label class="control-label col-sm-3">Date</label>
          <div class="col-sm-9">
           <input type="date" name="task_date" class="form-control" autocomplete="off" required>
-        </div>
-      </div>
-
-      <div class="form-group">
-         <div class="col-sm-9">
-             <label class="control-label col-sm-3">Time</label>
-          <input type="time" name="task_time" class="form-control" autocomplete="off">
         </div>
       </div>
 
